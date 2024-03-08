@@ -1,0 +1,33 @@
+/* BoardList.css */
+
+.board-container {
+    margin-top: 20px;
+  }
+  
+  .new-board-form {
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  .new-board-form input {
+    flex: 1;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .new-board-form button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .new-board-form button:hover {
+    background-color: #2980b9;
+  }
+  
